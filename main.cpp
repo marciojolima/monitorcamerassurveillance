@@ -6,7 +6,7 @@
 
 int main() {
     // Leitura do arquivo config.cfg
-    std::ifstream configFile("config.cfg");
+    std::ifstream configFile("conf.d/config.cfg");
     if (!configFile.is_open()) {
         std::cerr << "Erro: Não foi possível abrir o arquivo de configuração 'config.cfg'" << std::endl;
         return 1;

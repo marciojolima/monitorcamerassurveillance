@@ -1,8 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <string>
-#include <cstdlib>
-#include <sstream>
+//#include <string>
+//#include <cstdlib>
+//#include <sstream>
 
 int main() {
     // Leitura do arquivo config.cfg
@@ -12,6 +12,7 @@ int main() {
         return 1;
     }
 
+    /*
     // Lê as configurações do arquivo
     std::string screenResolution, videoStreamLink, videoPort;
     if (configFile >> screenResolution >> videoStreamLink >> videoPort) {
@@ -32,4 +33,5 @@ int main() {
         std::cerr << "Erro: O arquivo de configuração está incompleto" << std::endl;
         return 1;
     }
+    */
 }
